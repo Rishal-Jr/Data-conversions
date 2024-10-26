@@ -1,0 +1,21 @@
+<html>
+
+<head>
+    <title>
+    Error handling
+    </title>
+</head>
+
+<body>
+    <h1>Error handling in JS</h1>
+    <p id="beta_mistake"></p>
+    <script>
+        try{
+            addalert("hello player 111");
+        }
+        catch(err){
+            document.getElementById("beta_mistake").innerHTML=err.message
+        };
+    </script>
+    </body>
+    </html>
